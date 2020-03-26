@@ -1,0 +1,6 @@
+var str = regExp, regexp, RegExp;
+console.log(str.replace(/regexp/ig, '$& =)')); // regExp =), regexp =), RegExp =)
+var str = regExp, regexp, RegExp;
+console.log(str.replace(/regexp/ig, 'RegExp')); // RegExp, RegExp, RegExp
+console.log(str.replace(/regexp/i, 'RegExp')); // RegExp, regexp, RegExp
+console.log(str.replace(/regexp/g, 'RegExp')); // regExp, RegExp, RegExp
